@@ -1,7 +1,11 @@
 <div class="block">
   {% for link in site.links %}
-    <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
-       class="main" 
+    {% assign class = nil %}
+    {% if page.url contains link.url %}
+        {% assign class = 'active' %}
+    {% endif %}
+    <a target="{% if link.external or link.newtab %}_blank{% else %}_top{% endif %}"
+       class="main {{ class }}"
        href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
        {{ link.name }}
      </a>
