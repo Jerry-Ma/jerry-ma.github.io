@@ -1,20 +1,11 @@
-<<<<<<< HEAD
 # title:            Zhiyuan Ma, Poetically Dwell on the Earth
 title:            Zhiyuan Ma's Place
-description:      不弹吉他的诗人不是好天文学家
-url:              https://jerry-ma.github.io # Site url, without a slash at the end.
-signoff:          Z. Ma # Your name.
-# disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-=======
-title:            Zhiyuan Ma, Poetically Dwell on the Earth
 description:      不弹吉他的诗人不是好天文学家
 url:              https://jerry-ma.github.io # Site url, without a slash at the end.
 signoff:          Z. Ma # Your name.
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
->>>>>>> adjust to Jerry's usage
 
 links:
   - name:         About Me
@@ -26,20 +17,12 @@ links:
     url:          /research
   - name:         诗们
     url:          /poem
-<<<<<<< HEAD
-  - name:         Msgboard
-    url:          /message
-
-highlighter:      rouge
-permalink:        pretty
-=======
 
 highlighter:      rouge
 permalink:        pretty
 defaults:
   - values:
     layout: "default"
->>>>>>> adjust to Jerry's usage
 markdown:         kramdown
 kramdown:
   input: GFM
