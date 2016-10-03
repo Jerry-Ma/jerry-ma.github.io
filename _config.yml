@@ -3,7 +3,7 @@ title:            Zhiyuan Ma's Place
 description:      不弹吉他的诗人不是好天文学家
 url:              https://jerry-ma.github.io # Site url, without a slash at the end.
 signoff:          Z. Ma # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+# disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 
 links:
@@ -16,6 +16,8 @@ links:
     url:          /research
   - name:         诗们
     url:          /poem
+  - name:         Msgboard
+    url:          /message
 
 highlighter:      rouge
 permalink:        pretty
