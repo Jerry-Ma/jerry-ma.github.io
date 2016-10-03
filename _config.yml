@@ -17,6 +17,8 @@ links:
     url:          /research
   - name:         诗们
     url:          /poem
+  - name:         Msgboard
+    url:          /message
 
 highlighter:      rouge
 permalink:        pretty
