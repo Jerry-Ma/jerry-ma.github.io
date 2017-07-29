@@ -1,4 +1,5 @@
 ---
+show_title: true
 title: About Me
 ---
 
