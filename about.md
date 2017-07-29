@@ -33,7 +33,7 @@ language) and playing guitar. I also sing, but an average audience may find it
 a bit disturbing.
 
 [The moon at WIYN]({{ site.url }}/images/wiyn.jpg)
-![The moon at WIYN]({{ site.url }}/images/wiyn.jpg)
+![The moon at WIYN]({{ site.url }}/images/wiyn-small.jpg)
 
 ---
 
