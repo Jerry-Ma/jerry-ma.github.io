@@ -1,11 +1,21 @@
-# title:            Zhiyuan Ma, Poetically Dwell on the Earth
 title:            Zhiyuan Ma's Place
 description:      不弹吉他的诗人不是好天文学家
 url:              https://jerry-ma.github.io # Site url, without a slash at the end.
 signoff:          Z. Ma # Your name.
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+google_analytics: UA-84990418-1 # set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
+
+gmail_username: jerry.ma.nk
+mu_email: zmzff@mail.missouri.edu
+github_username:      Jerry-Ma
+linkedin_username:    zhiyuan-ma-67109683
+facebook_username:    jerry.ma.92798
+googleplus_username: 101928229711083922994
+stackoverflow_username: 1824372/jerry-ma
+quora_username: Zhiyuan-Ma
+zhihu_username: ma-zhi-yuan-15
+soundcloud_username:  zhiyuan-ma-821929883
 
 links:
   - name:         About Me
@@ -20,12 +30,18 @@ links:
   - name:         Msgboard
     url:          /message
 
-highlighter:      rouge
 permalink:        pretty
-defaults:
-  - values:
-    layout: "default"
 markdown:         kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+highlighter:      rouge
+exclude:
+  - CNAME
+  - README.md
+  - scratch
+  - "*.orig"
+defaults:
+  -
+    values:
+        layout: "default"

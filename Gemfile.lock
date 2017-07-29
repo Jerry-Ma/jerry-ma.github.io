@@ -172,7 +172,6 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    pkg-config (2.0.5)
     posix-spawn (0.3.11)
     public_suffix (1.5.3)
     pygments.rb (0.6.3)
@@ -205,4 +204,4 @@ DEPENDENCIES
   pygments.rb
 
 BUNDLED WITH
-   1.13.1
+   1.14.6
