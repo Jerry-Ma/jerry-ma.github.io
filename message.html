@@ -1,13 +1,8 @@
 ---
-layout: bare
+layout: default
+title: Msgboard
 ---
-<head>
-  <meta charset="UTF-8">
-  <title>Message Board</title>
-  <meta name="viewport" content="width=640, user-scalable=no">
-  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-</head>
-<body>
+  <link href='{{ site.url }}/stylesheets/gitment.css' rel='stylesheet' type='text/css'/>
   <div id="container"></div>
   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
   <script>
@@ -22,4 +17,3 @@ layout: bare
     })
     gitment.render('container')
   </script>
-</body>
