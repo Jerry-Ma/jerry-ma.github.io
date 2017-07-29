@@ -1,17 +1,25 @@
 ---
 layout: bare
 ---
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  owner: 'Jerry-Ma',
-  repo: 'Jerry-Ma.github.io-messages',
-  oauth: {
-    client_id: 'b03b0f4813a9fc1d2db7',
-    client_secret: 'bcde81435ec5b80f9e03d2975a3550d5437e9c95',
-  },
-})
-gitment.render('container')
-</script>
+<head>
+  <meta charset="UTF-8">
+  <title>Message Board</title>
+  <meta name="viewport" content="width=640, user-scalable=no">
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+</head>
+<body>
+  <div id="container"></div>
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+    var gitment = new Gitment({
+        id: 'MsgBoard',
+        owner: 'Jerry-Ma',
+        repo: 'Jerry-Ma.github.io',
+        oauth: {
+            client_id: 'b03b0f4813a9fc1d2db7',
+            client_secret: 'bcde81435ec5b80f9e03d2975a3550d5437e9c95',
+        },
+    })
+    gitment.render('container')
+  </script>
+</body>
