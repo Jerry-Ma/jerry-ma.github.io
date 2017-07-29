@@ -3,7 +3,8 @@ show_title: true
 title: About Me
 ---
 
-![Me]({{ site.url }}/images/me-square.jpg){:style="float:right;margin-left:20px;margin-bottom:20px"}
+![Me]({{ site.url }}/images/me-square.jpg){:class="fr-ns ml4-ns mb4-ns"}
+
 
 I am Zhiyuan Ma (马志远/Jerry), a PhD student in Department of Physics and
 Astronomy, University of Missouri-Columbia.
